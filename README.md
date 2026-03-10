@@ -69,13 +69,8 @@ Modern Tailwind (v3.0+) prefers shorthand versions to improve readability and re
 | `flex-grow-0` | **`grow-0`** | `flex-grow: 0;` |
 | `flex-grow` | **`grow`** | `flex-grow: 1;` |
 
-**Example Correction in `RideRequest.tsx`:**
-```tsx
-// ❌ Avoid (Old Syntax)
-<div className="flex-shrink-0 w-32 p-3 bg-zinc-50 ...">
 
-// ✅ Use This (Modern Syntax)
-<div className="shrink-0 w-32 p-3 bg-zinc-50 ...">
+
 📦 Project Structure
 Plaintext
 ├── src/
@@ -106,6 +101,7 @@ Build for Production:
 
 Bash
 npm run build
+
 🤝 Contribution Guidelines
 Linting: Ensure all code passes type checks. Fix any canonical class warnings via VS Code Quick Fix (Cmd + .).
 
@@ -114,4 +110,12 @@ Naming: Use PascalCase for Components and camelCase for functions.
 Security: Never commit your .env file; always update .env.example if new keys are added.
 
 📝 License
-Proprietary software. Internal use only for the CabGo Platform.
+Proprietary software. Internal use only for the CabGo Platform
+
+**Example Correction in `RideRequest.tsx`:**
+```tsx
+// ❌ Avoid (Old Syntax)
+<div className="flex-shrink-0 w-32 p-3 bg-zinc-50 ...">
+
+// ✅ Use This (Modern Syntax)
+<div className="shrink-0 w-32 p-3 bg-zinc-50 ...">
