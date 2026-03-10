@@ -72,7 +72,6 @@ Modern Tailwind (v3.0+) prefers shorthand versions to improve readability and re
 
 
 📦 Project Structure
-Plaintext
 ├── src/
 │   ├── components/       # UI Elements (RideRequest, DriverCard, etc.)
 │   ├── db/               # SQLite connection and initialization logic
