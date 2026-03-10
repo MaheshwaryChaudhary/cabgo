@@ -1,0 +1,7 @@
+{
+  "name": "CabGo - Uber Clone",
+  "description": "A premium full-stack ride-hailing application featuring real-time driver tracking, secure Stripe payments, ride history, and AI-powered location suggestions.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
